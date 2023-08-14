@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+    overflow-x:hidden;
+}
+
+.navbar {
+    background: white;
+}
+
+.navbar img {
+    width: 20%;
+}
+
+.navbar .nav-link {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.navbar ul {
+    margin-left: -80px;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar button a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 20px 50px !important;
+    background: #0DADA5;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.navbar button a:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.navbar .active {
+    color: #0DADA5 !important;
+}
+
+/* -------------------------------
+Início do carrosel
+------------------------------- */
+
+.carrossel {
+    margin-top: 125px;
+}
+
+.carrossel .carousel {
+    margin: 0;
+}
+
+.carrossel .carousel i {
+    font-size: 200%;
+    color: #ffffff;
+}
+
+.carrossel .carousel .textoCarrossel {
+    text-align: left;
+    top: 20%;
+    transform: translateY(-50%);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
+    width: 374px;
+}
+
+.carrossel .carousel .textoCarrossel p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.carrossel .carousel .textoCarrossel .corTextoSlide {
+    color: #FFC12A;
+}
+
+.carrossel .carousel .btn {
+    color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px !important;
+    padding-top: 7px;
+    width: 175px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.carrossel .carousel .btn:hover {
+    list-style: none;
+}
+
+.carrossel .carousel .carousel-item img {
+    transition: 60s ease;
+    height: 475px;
+  }
+  
+.carrossel .carousel .carousel-item.active img {
+    transform: scale(2.0);
+  }
+
+  @keyframes animacaoFadeInUpBig {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 2000px, 0);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  .fadeInUpBig {
+    animation-name: animacaoFadeInUpBig;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+  }
+
+/* -----------------------------
+Fim do Carrosel
+------------------------------------ */
+
